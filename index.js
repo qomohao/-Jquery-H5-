@@ -42,6 +42,8 @@ $(function () {
 	c.load("<p class='writecode'>再靠近一点</p>");
 	c.load("<p class='writecode'>再靠近一点</p>");
 	c.load("<p class='writecode'></p>");
+	c.load("<p class='writecode'>到里就没有了。。。</p>");
+	c.load("<p class='writecode'></p>");
 	c.load("<p class='writecode'></p>");
 
 });
