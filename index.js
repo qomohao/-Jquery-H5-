@@ -5,8 +5,8 @@ $(function () {
 	c.load("<p class='writecode'>等等...</p>");
 	c.load("<p class='writecode'>字体好像有点小，还有点丑 。。稍等...</p>");
 	c.load("<p class='writecode'>{</p>",1000);
-	c.load("<p class='writecode'>&nbsp;&nbsp;font-size:18px</p>",500);
-	c.load("<p class='writecode'>&nbsp;&nbsp;'color':'#999'</p>",500);
+	c.load("<p class='writecode'>&nbsp;&nbsp;font-size:18px，</p>",500);
+	c.load("<p class='writecode'>&nbsp;&nbsp;color:#999</p>",500);
 	c.load("<p class='writecode'>}</p>",1000);
 	c.setStyle("html", {
 		'font-size': "18px",
@@ -21,7 +21,7 @@ $(function () {
 	c.load("<p class='writecode'>每秒每天</p>");
 	c.load("<p class='writecode'>stop... 改变一下颜色</p>");
 	c.load("<p class='writecode'>{</p>");
-	c.load("<p class='writecode'>&nbsp;&nbsp;color:#fff</p>");
+	c.load("<p class='writecode'>&nbsp;&nbsp;color:#fff，</p>");
 	c.load("<p class='writecode'>&nbsp;&nbsp;background-image:linear-gradient(to top, #09203f 0%, #537895 100%)</p>");
 	c.load("<p class='writecode'>}</p>");
 	c.setStyle("html", {
@@ -43,6 +43,7 @@ $(function () {
 	c.load("<p class='writecode'>再靠近一点</p>");
 	c.load("<p class='writecode'></p>");
 	c.load("<p class='writecode'></p>");
+
 });
 
 var m = 0;
