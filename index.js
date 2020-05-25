@@ -21,8 +21,8 @@ $(function () {
 	c.load("<p class='writecode'>每秒每天</p>");
 	c.load("<p class='writecode'>stop... 改变一下颜色</p>");
 	c.load("<p class='writecode'>{</p>");
-	c.load("<p class='writecode'>&nbsp;&nbsp;background:rgb(63, 82, 99)</p>");
 	c.load("<p class='writecode'>&nbsp;&nbsp;color:#fff</p>");
+	c.load("<p class='writecode'>&nbsp;&nbsp;background-image:linear-gradient(to top, #09203f 0%, #537895 100%)</p>");
 	c.load("<p class='writecode'>}</p>");
 	c.setStyle("html", {
 		'color': '#eee',
